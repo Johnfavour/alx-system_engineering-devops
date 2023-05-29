@@ -11,4 +11,8 @@ then
 else
 	sed -i '$ a \    StrictHostKeyChecking no' /etc/ssh/ssh_config
 	scp -i "$PATH_TO_SSH_KEY" "$PATH_TO_FILE" "$USERNAME"@"$IP":~/
+<<<<<<< HEAD
 fi
+=======
+fi 
+>>>>>>> 29994899ea95b0ac629b41fd6ab0d266da832a4c
