@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # To install nginx on my web server that will print hello world
-apt-get -y update
+apt-get update
 apt-get -y install nginx
+ufw allow 'Nginx HTTP'
 echo "Hello World!" > /var/www/html/index.nginx-debian.html
 service nginx start
