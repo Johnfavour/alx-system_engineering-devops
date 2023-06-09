@@ -8,7 +8,7 @@ import requests
 def number_of_subscribers(subreddit):
     """Request number of subscribers of subreddit
     """
-    user_agent = '0x16-api_advanced-jmajetich'
+    user_agent = '0x16-api_advanced-project'
     url = 'https://www.reddit.com/r/{}.json'.format(subreddit)
 
     headers = {'User-Agent': user_agent}
